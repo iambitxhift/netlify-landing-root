@@ -1,6 +1,5 @@
 # netlify.toml
 [build]
-  base = "netlify-landing-root1"
   publish = "."
   command = ""
 
