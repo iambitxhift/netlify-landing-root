@@ -1,9 +1,9 @@
-# Netlify config: serve static landing page from the repo root
+# Publish the repo root as a static site
 [build]
   publish = "."
   command = ""
 
-# Optional: SPA-style routing (serve index for all paths)
+# Optional: serve index.html for all routes (static SPA-style fallback)
 [[redirects]]
   from = "/*"
   to   = "/index.html"
