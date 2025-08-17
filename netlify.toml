@@ -1,9 +1,8 @@
-# Publish the repo root as a static site
+# netlify.toml
 [build]
   publish = "."
   command = ""
 
-# Optional: serve index.html for all routes (static SPA-style fallback)
 [[redirects]]
   from = "/*"
   to   = "/index.html"
